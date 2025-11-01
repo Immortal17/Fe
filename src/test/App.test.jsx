@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from '../App';
-
+//This is changed by me
 // Mock Hero component to bypass Three.js rendering
 vi.mock('../components/Hero', () => {
   return {
